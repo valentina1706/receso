@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>Trabajo practico n1</h1>
+  <h2>1- ¿Qué significa HTML y por qué se dice que es un lenguaje de marcas? Enumera 8 etiquetas HTML</h2>
+  <p>Rta: El Lenguaje de Marcado de Hipertexto (HTML), o en ingles "Lenguaje de Marcas de Hipertexto, del inglés
+    HyperText Markup Language es el código que se utiliza para estructurar y desplegar una página web y sus
+    contenidos.Lenguaje de marcas es una forma de codificar un documento que, junto con el texto, incorpora etiquetas o
+    marcas que contienen información adicional acerca de la estructura del texto o su presentación. Ocho de ellas son:
+    "body", "head", "div", "a", "strong", "br", "h1" y "img"</p>
+  <h2>¿Cómo es la anatomía de un elemento HTML? Dar un ejemplo con la etiqueta "p"</h2>
+  <p> Hay partes principales del elemento, que son:
+
+    La etiqueta de apertura: consiste en el nombre del elemento (en este caso, p), encerrado por paréntesis angulares (
+    <>) de apertura y cierre. Establece dónde comienza o empieza a tener efecto el elemento —en este caso, dónde es el
+      comienzo del párrafo—.
+      La etiqueta de cierre: es igual que la etiqueta de apertura, excepto que incluye una barra de cierre (/) antes del
+      nombre de la etiqueta. Establece dónde termina el elemento —en este caso dónde termina el párrafo—.
+      El contenido: este es el contenido del elemento, que en este caso es sólo texto.
+      El elemento: la etiqueta de apertura, más la etiqueta de cierre, más el contenido equivale al elemento.
+  </p>
+  <h2> ¿Cuál es la anatomía básica del HTML? Escribir su código y definir !DOCTYPE html, html </h2>
+  <p>se compone de tres partes:
+
+    1-una línea que contiene información sobre la versión de HTML,
+    2-una sección de cabecera declarativa (delimitada por el elemento HEAD),
+    3-un cuerpo, que contiene el contenido real del documento. El cuerpo puede ser especificado mediante el elemento
+    BODY o mediante el elemento FRAMESET
+
+    Codigo:
+    !DOCTYPE html>
+    html
+    head>
+    meta charset="utf-8">
+    title>Mi pagina de prueba/title
+    /head
+    body
+    img src="images/firefox-icon.png" alt="Mi imagen de prueba"
+    /body
+    /html
+    Definiciones:
+
+    !DOCTYPE html> — el tipo de documento. Es un preámbulo requerido. Anteriormente, cuando HTML era joven (cerca de
+    1991/2), los tipos de documento actuaban como vínculos a un conjunto de reglas que el código HTML de la página debía
+    seguir para ser considerado bueno, lo que podía significar la verificación automática de errores y algunas otras
+    cosas de utilidad. Sin embargo, hoy día es simplemente un artefacto antiguo que a nadie le importa, pero que debe
+    ser incluido para que todo funcione correctamente. Por ahora, eso es todo lo que necesitas saber.
+    html/html- el elemento html. Este elemento encierra todo el contenido de la página entera y, a veces, se le conoce
+    como el elemento raíz (root element).
+    head/head — el elemento head. Este elemento actúa como un contenedor de todo aquello que quieres incluir en la
+    página HTML que no es contenido visible por los visitantes de la página. Incluye cosas como palabras clave
+    (keywords), una descripción de la página que quieres que aparezca en resultados de búsquedas, código CSS para dar
+    estilo al contenido, declaraciones del juego de caracteres, etc.
+    meta charset="utf-8" — meta. Este elemento establece el juego de caracteres que tu documento usará en utf-8, que
+    incluye casi todos los caracteres de todos los idiomas humanos. Básicamente, puede manejar cualquier contenido de
+    texto que puedas incluir. No hay razón para no establecerlo, y puede evitar problemas en el futuro.
+    title/title — el elemento title establece el título de tu página, que es el título que aparece en la pestaña o en la
+    barra de título del navegador cuando la página es cargada, y se usa para describir la página cuando es añadida a los
+    marcadores o como favorita.
+    body/body — el elemento body. Encierra todo el contenido que deseas mostrar a los usuarios web que visiten tu
+    página, ya sea texto, imágenes, videos, juegos, pistas de audio reproducibles, y demás.
+
+
+  </p>
+  <h2>Investiga sobre títulos en https://tinyurl.com/ujo9xhr y construye tu primer página web que contenga un pequeño
+    resumen de no más de tres párrafos de lo que hacés y te gusta hacer.</h2>
+  <p>listo</p>
+  <h2>¿Qué es y que función cumple el CSS?</h2>
+  <p>el CSS es un lenguaje informático que especifica cómo se presentan los documentos a los usuarios: cómo se diseñan,
+    compaginan, etc.
+
+    Un documento suele ser un archivo de texto estructurado con un lenguaje de marcado: HTML es el más común, pero
+    también existen otros como SVG o XML.</p>
+  <h2>¿Cómo se incorpora el CSS dentro del HTML?</h2>
+  <p>Se puede incluir CSS en HTML:
+
+    Vinculando a un archivo de hoja de estilo separado.
+    Incrustando CSS en una etiqueta de estilo.
+    Agregando estilos en línea a elementos HTML.
+    Importando archivos de hojas de estilo existentes.
+    Inyectando css con javascript.</p>
+  <h2>¿Cuál es la anatomía de una regla CSS?</h2>
+  <p>El elemento HTML en el que comienza la regla. Esta selecciona el(los) elemento(s) a dar estilo (en este caso, los
+    elementos "p". Para dar estilo a un elemento diferente, solo cambia el selector. </p>
+  <h2>¿Cuáles son los tipos de selectores que puede utilizar CSS?</h2>
+  <p>Tipos de :
+
+    Selectores de tipo, de clase y de ID. Este grupo incluye selectores que delimitan un elemento HTML, como por ejemplo
+    un "h1".
+    Selectores de atributo.
+    Las pseudoclases y los pseudoelementos.
+    Combinadores.</p>
+  <h2>¿Qué es javascript? ¿Podrías definirlo como un lenguaje de programación? ¿De qué tipo?Justificar</h2>
+  <p>Es un lenguaje de programación de comandos que te permite implementar funciones complejas en páginas web, cada vez
+    que una página web hace algo más que sentarse allí y mostrar información estática para que la veas, muestra
+    oportunas actualizaciones de contenido, mapas interactivos, animación de Gráficos 2D/3D, desplazamiento de máquinas
+    reproductoras de vídeo, etc.</p>
+  <h2>¿A qué se llama DOM y cual es su función?</h2>
+  <p>Document Object Model o DOM ('Modelo de Objetos del Documento' o 'Modelo en Objetos para la Representación de
+    Documentos') es esencialmente una interfaz de plataforma que proporciona un conjunto estándar de objetos para
+    representar documentos HTML, XHTML y XML,1​ un modelo estándar sobre cómo pueden combinarse dichos objetos, y una
+    interfaz estándar para acceder a ellos y manipularlos. A través del DOM, los programas pueden acceder y modificar el
+    contenido, estructura y estilo de los documentos HTML y XML, que es para lo que se diseñó principalmente. </p>
+  <h2>¿En qué puede ayudarnos javascript en una página web?</h2>
+  <p>Se puede usar para añadir características interactivas a tu sitio web, (por ejemplo, juegos, eventos que ocurren
+    cuando los botones son presionados o los datos son introducidos en los formularios, efectos de estilo dinámicos,
+    animación, y mucho más).</p>
+</body>
+
+</html>
